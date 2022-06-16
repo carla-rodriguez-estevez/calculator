@@ -1,0 +1,53 @@
+<div class="flex flex-col items-center justify-center h-screen bg-gray-200">
+    <h1 class="text-5xl font-medium text-gray-700">Calculator</h1>
+  
+       
+    <form phx-submit="submit">
+      <span class="m-5 text-3xl">
+        <p>First operator: </p>
+        
+        <input class="field-column-register" name="entry1" type="number" id="input1">
+      </span>
+
+      <span class="m-5 text-3xl">
+        <p>Second operator: </p>
+         <input class="field-column-register"  name="entry2" type="number" id="input2">
+      </span>
+
+      <span>
+        <select id="operation" name="operation">
+          <option value=":suma">Suma</option>
+          <option value=":resta">Resta</option>
+          <option value=":division">División</option>
+          <option value=":multiplicacion">Multiplicación</option>
+
+        </select>   
+      </span>
+      
+      <span class="m-5 text-5xl">
+        <p>Result: </p>
+          <span class="m-5 text-5xl">
+              <%= @result %>
+            </span>
+            <p>
+
+            </p>
+      </span>
+
+      <div>
+        <p>
+          <p></p>
+          <button type="submit" class="text-white text-4xl bg-indigo-600 px-6 py-4 rounded hover:bg-indigo-900">Calculate</button>
+        </p>
+      </div>
+
+    </form>
+
+  <!-- <section> 
+      <button phx-click="dec" class="text-white text-4xl bg-indigo-600 px-6 py-4 rounded hover:bg-indigo-900">-</button>
+  
+      <button phx-click="clear" class="m-10 text-white text-4xl bg-indigo-900 px-6 py-4 rounded hover:bg-indigo-500">clear</button>
+  
+      <button phx-click="inc" class="text-white text-4xl bg-indigo-600 px-6 py-4 rounded hover:bg-indigo-900">+</button>
+    </section> -->
+  </div>
