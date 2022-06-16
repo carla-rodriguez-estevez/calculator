@@ -9,32 +9,6 @@ defmodule CounterWeb.PageLive do
      |> assign(number1: 0, number2: 0, result: 0)}
   end
 
-  def handle_event("inc", _params, socket) do
-    Calculadora.operar(:suma,socket.assigns.result,1)
-    {:noreply,
-     socket
-     |> update(:result, &(&1 + 1))}
-
-  end
-
-  def handle_event("change1",%{"entry1" => entry1},socket) do
-    {:noreply,
-     socket
-     |> update(:number1, entry1)}
-  end
-
-  def handle_event("dec", _params, socket) do
-    Calculadora.operar(:resta,socket.assigns.result,1)
-
-    {:noreply,
-     socket
-     |> update(:result, &max(0, &1 - 1))}
-
-  end
-
-  def handle_event("clear", _params, socket) do
-    {:noreply, socket |> update(:result, socket.assigns.number1)}
-  end
 
   def handle_event("submit", %{"entry1" => entry1, "entry2" => entry2, "operation" => operation}, socket) do
     IO.puts(String.to_atom(operation))
