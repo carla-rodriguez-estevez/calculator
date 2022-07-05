@@ -17,5 +17,7 @@ A partir de ahí estará disponible tu calculadora en tu navegador ([enlace ráp
 
 ![Gracias por visitar el repositorio](https://geekytheory.com/content/images/2014/05/Cat-Illustrations-024.jpg)
 
+(Proximamente pruebas de la interfaz con hound y chromedriver serán añadidas)
+
 **MUCHAS GRACIAS POR VISITAR EL REPOSITORIO**
 
