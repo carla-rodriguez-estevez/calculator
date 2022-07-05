@@ -1,5 +1,6 @@
 # calculator
-Pype and filter calculator with UI made using Phoenix, Elixir and LiveView
+Pype and filter calculator with UI made using Phoenix, Elixir, and LiveView.
+This is a public repository based on a Software Architecture project already done and private to test different utilities (credo and dialyxir)
 
 Para arrancar el programa solamente hace falta 
 
