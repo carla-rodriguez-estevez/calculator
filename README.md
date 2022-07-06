@@ -30,7 +30,6 @@ Es necesario tener instalado en la máquina chromedriver ya que es lo que invoca
 
 ![Gracias por visitar el repositorio](https://geekytheory.com/content/images/2014/05/Cat-Illustrations-024.jpg)
 
-(Proximamente pruebas de la interfaz con hound y chromedriver serán añadidas)
 
 **MUCHAS GRACIAS POR VISITAR EL REPOSITORIO**
 
