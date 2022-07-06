@@ -1,1 +1,16 @@
-la solución a la operación Suma  para los valores 2 & 5 da como solución 7 
+la solución a la operación Resta  para los valores 3 & 13 da como solución -10 
+la solución a la operación Multiplicacion  para los valores 3 & 13 da como solución 39 
+la solución a la operación Suma  para los valores 3 & 13 da como solución 16 
+la solución a la operación Division  para los valores 13 & 3 da como solución 4 
+la solución a la operación Division  para los valores 13 & 3 da como solución 4 
+la solución a la operación Suma  para los valores 3 & 13 da como solución 16 
+la solución a la operación Multiplicacion  para los valores 3 & 13 da como solución 39 
+la solución a la operación Resta  para los valores 3 & 13 da como solución -10 
+la solución a la operación Resta  para los valores 3 & 13 da como solución -10 
+la solución a la operación Multiplicacion  para los valores 3 & 13 da como solución 39 
+la solución a la operación Suma  para los valores 3 & 13 da como solución 16 
+la solución a la operación Division  para los valores 13 & 3 da como solución 4 
+la solución a la operación Resta  para los valores 3 & 13 da como solución -10 
+la solución a la operación Division  para los valores 13 & 3 da como solución 4 
+la solución a la operación Suma  para los valores 3 & 13 da como solución 16 
+la solución a la operación Multiplicacion  para los valores 3 & 13 da como solución 39 

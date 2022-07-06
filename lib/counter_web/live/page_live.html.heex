@@ -4,29 +4,29 @@
        
     <form phx-submit="submit">
       <span class="m-5 text-3xl">
-        <p>First operator: </p>
+        <p id="first-text">First operator: </p>
         
         <input class="field-column-register" name="entry1" type="number" id="input1">
       </span>
 
       <span class="m-5 text-3xl">
-        <p>Second operator: </p>
+        <p id="second-text">Second operator: </p>
          <input class="field-column-register"  name="entry2" type="number" id="input2">
       </span>
 
       <span>
         <select id="operation" name="operation">
-          <option value=":suma">Suma</option>
-          <option value=":resta">Resta</option>
-          <option value=":division">División</option>
-          <option value=":multiplicacion">Multiplicación</option>
+          <option value=":suma" id="Suma">Suma</option>
+          <option value=":resta" id="Resta">Resta</option>
+          <option value=":division" id="Division">División</option>
+          <option value=":multiplicacion" id="Multiplicacion">Multiplicación</option>
 
         </select>   
       </span>
       
       <span class="m-5 text-5xl">
-        <p>Result: </p>
-          <span class="m-5 text-5xl">
+        <p id="result-text">Result: </p>
+          <span class="m-5 text-5xl" id="result-number">
               <%= @result %>
             </span>
             <p>
@@ -37,17 +37,9 @@
       <div>
         <p>
           <p></p>
-          <button type="submit" class="text-white text-4xl bg-indigo-600 px-6 py-4 rounded hover:bg-indigo-900">Calculate</button>
+          <button type="submit" id="summit-button" class="text-white text-4xl bg-indigo-600 px-6 py-4 rounded hover:bg-indigo-900">Calculate</button>
         </p>
       </div>
 
     </form>
-
-  <!-- <section> 
-      <button phx-click="dec" class="text-white text-4xl bg-indigo-600 px-6 py-4 rounded hover:bg-indigo-900">-</button>
-  
-      <button phx-click="clear" class="m-10 text-white text-4xl bg-indigo-900 px-6 py-4 rounded hover:bg-indigo-500">clear</button>
-  
-      <button phx-click="inc" class="text-white text-4xl bg-indigo-600 px-6 py-4 rounded hover:bg-indigo-900">+</button>
-    </section> -->
   </div>

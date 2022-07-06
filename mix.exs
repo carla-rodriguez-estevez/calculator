@@ -45,7 +45,8 @@ defmodule Counter.MixProject do
       {:plug_cowboy, "~> 2.5"},
       {:tailwind,"~> 0.1.5"},
       {:dialyxir, "~> 1.0", only: [:dev], runtime: false},
-      {:credo, "~> 1.6", only: [:dev, :test], runtime: false}
+      {:credo, "~> 1.6", only: [:dev, :test], runtime: false},
+      {:hound, "~> 1.0"}
     ]
   end
 
